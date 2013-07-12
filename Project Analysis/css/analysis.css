@@ -1,0 +1,156 @@
+body {
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 130%;
+	max-width: 98%;
+	margin: 1%;
+	border: 1em solid #a9a9a9;
+}
+
+.container {
+	max-width: 100%;
+	background-color: #e5e6e6;
+	margin: 0 auto;
+	padding: 2.5%;
+	border: 1em solid #0054a6;
+}
+
+header {
+	margin-bottom: 6%;
+	line-height: 50%;
+	font-size: 1.5em;
+}
+
+h1 {
+	font-weight: 650;
+	color: #a9a9a9;
+	font-size: 2em;
+	width: 100%;
+	padding-bottom: 1.5%;
+	margin: 1% 0;
+	border-bottom: 2px solid #a9a9a9;
+}
+
+h3 {
+	font-weight: 350;
+	color: #a9a9a9;
+	font-size: 1.5em;
+	text-decoration: underline;
+	margin-left; 2%;
+}
+
+p {
+	font-size: 0.875em;
+	font-weight: normal;
+}
+
+ul {
+	margin-left: 2%;
+	list-style-type: square;
+	line-height: 175%;
+}
+
+li {
+	font-size: 0.875em;
+	font-weight: normal;
+}
+
+strong {
+	-web-font-weight: 650;
+}
+
+#build {
+	margin-left: 2%;
+	font-size: 1.125em;
+}
+
+.build {
+	line-height: 140%;
+}
+
+#vista {
+	margin-left: 2%;
+	font-size: 1.125em;
+}
+
+.vista {
+	line-height: 140%
+}
+
+#uprint {
+	margin-left: 2%;
+	font-size: 1.125em;
+}
+
+.uprint {
+	line-height: 140%;
+}
+
+.competition {
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
+
+#male {
+	margin-left: 2%;
+	font-size: 1.25em;
+}
+
+.male {
+	line-height: 140%
+	margin-bottom: 5%;
+}
+
+#female {
+	margin-left: 2%;
+	font-size: 1.25em;
+}
+
+.female {
+	ine-height: 140%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 959px){
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+
+	header {
+		font-size: 1em;
+	}
+	
+	h1 {
+		font-size: 1.5em;
+	}
+}
+
+@media only screen and (max-width: 479px){
+	
+	body {
+		border: .5em solid #565a5a;
+	}
+	
+	.container {
+		border: none;
+	}
+	
+	header {
+		font-size: 1em;
+		line-height: 130%;
+		margin-bottom: 20%;
+	}
+	
+	h1 {
+		font-size: 1.5em;
+	}
+	
+	h3 {
+		margin: 20% 0% 5% 0%;
+	}
+	
+	ul {
+		margin: 1% 1% 1% -7%;
+	}
+	
+}
