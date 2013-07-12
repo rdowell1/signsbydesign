@@ -23,7 +23,7 @@ header {
 }
 
 h1 {
-	font-weight: 650;
+	font-weight: 700;
 	color: #a9a9a9;
 	font-size: 2em;
 	width: 100%;
@@ -33,11 +33,11 @@ h1 {
 }
 
 h3 {
-	font-weight: 350;
+	font-weight: 400;
 	color: #a9a9a9;
 	font-size: 1.5em;
 	text-decoration: underline;
-	margin-left; 2%;
+	margin-left: 2%;
 }
 
 p {
@@ -98,7 +98,7 @@ strong {
 }
 
 .male {
-	line-height: 140%
+	line-height: 140%;
 	margin-bottom: 5%;
 }
 
@@ -108,7 +108,7 @@ strong {
 }
 
 .female {
-	ine-height: 140%;
+	line-height: 140%;
 }
 
 @media screen and (min-width: 768px) and (max-width: 959px){
